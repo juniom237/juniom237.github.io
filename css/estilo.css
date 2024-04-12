@@ -1,0 +1,31 @@
+body{
+    background-color: #00008B;
+}
+
+.header{
+    height: 70px;
+    background-color: #353d41;
+    
+}
+
+.container{
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 50%;
+    float: left;
+}
+
+#logo{
+    width: 75px;
+}
+
+ul{
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
