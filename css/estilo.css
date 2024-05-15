@@ -1,46 +1,104 @@
 body{
-    background-color: #00008B;
+    background-image: url(/img/fundo.jpg);
 }
 
-header{
-    height: 70px;
-    background-color: #cddce4;
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
-    width: 100%;
-    padding: 0 100px;
-
-}
-.logo{
-    font-family: "Cedarville Cursive", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: large;
-    font-size: 2.5em;
+    padding: 10px 20px;
 }
 
-
-ul li {
-    display: inline;
-    float:inline-start;
-
-}
-a{
+.navbar-brand a {
+    color: white;
     text-decoration: none;
+    font-size: 1.5em;
     display: flex;
-    padding: 8px;    
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    align-items: center;
+}
+
+.navbar-brand a i {
+    margin-right: 8px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a i {
+    margin-right: 8px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
 }
 
 main{
     width: 100%;
-    height: 100%;
+    height: 85%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    padding: 50px;
+    
+}
+.sobre{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #cddce4;
+}
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 3em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    animation: typing 4s steps(40, end) infinite, blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    0% { width: 0; }
+    70% { width: 100%; }
+    90% { width: 100%; }
+    100% { width: 0; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
 }
 
 .footer{
     height:70px;
     background-color:#cddce4 ;
+    
+}
+.contato{
+    display: flex;    
+    justify-content: space-around;
+
+}
+.contato img{
+    height: 50px;
 }
