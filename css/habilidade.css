@@ -1,0 +1,80 @@
+.habilidade {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  height: 100%;
+}
+.front {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  box-shadow: 2px 2px 5px #03b32e;
+  background-color: #1e1e1e;
+}
+.front div i {
+  padding-top: 40px;
+  display: flex;
+}
+/* Estilos para o modal */
+.modal {
+    display: none; /* Ocultar por padrão */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5); /* Fundo escuro semi-transparente */
+  }
+  
+  /* Conteúdo do modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Centraliza o modal verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40rem; /* Largura do modal */
+  }
+  
+  /* Botão de fechar */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo do ícone */
+  .icon {
+    cursor: pointer;
+  }
+  
+.back {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  box-shadow: 2px 2px 5px #03b32e;
+  background-color: #1e1e1e;
+}
+.frame {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  box-shadow: 2px 2px 5px #03b32e;
+  background-color: #1e1e1e;
+}
+.design {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  box-shadow: 2px 2px 5px #03b32e;
+  background-color: #1e1e1e;
+}
