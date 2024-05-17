@@ -7,7 +7,7 @@
 
 html, body{
     height: 100vh;
-    background-image: url(/protflio/img/fundo.jpg)
+    background-image: linear-gradient(rgb(34, 34, 58), #03b32e,#836ca8ad);
 }
 
 .container{
