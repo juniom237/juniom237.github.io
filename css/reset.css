@@ -1,20 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-html, body{
-    height: 100vh;
-    background-image: linear-gradient(rgb(34, 34, 58), #03b32e,#836ca8ad);
+html,
+body {
+  height: 100vh;
+
+  animation: fundo 60s infinite;
+}
+@keyframes fundo {
+  15% {
+    background: #a46d0b;
+  }
+  30% {
+    background: #8c605d;
+  }
+  45% {
+    background: #35437d;
+  }
+  60% {
+    background: #5f5aeb;
+  }
+  75% {
+    background: #1f8f05;
+  }
+  90% {
+    background: #18a4c6;
+  }
 }
 
-.container{
-    padding: 70px 0;
+.container {
+  padding: 70px 0;
 }
 
-p, li {
-    color: #444;
-    font-size: 14px;
+p,
+li {
+  color: #444;
+  font-size: 14px;
 }

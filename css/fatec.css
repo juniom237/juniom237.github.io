@@ -9,17 +9,20 @@
   display: block;
   padding: 1rem;
   width: 40rem;
-  height: auto;
+  height: 20rem;
   text-align: justify;
-  box-shadow: 2px 2px 5px #03b32e;
+  box-shadow: 2px 2px 5px #03b32e, #4f3443, #878ea091;
   background-color: #1e1e1e;
+  border-radius: 50px;
 }
 .titulo {
   font-family: "Courier New", Courier, monospace;
-  font-size: 3em;
+  font-size: 2rem;
   white-space: nowrap;
   overflow: hidden;
-  
+  align-items: center;
+  justify-content: center;
+  display: grid;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -28,13 +31,30 @@ p {
   color: #fff;
   padding: 10px;
 }
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.botao {
+  background-color: #04aa6d; /* Green */
+  border-radius: 100px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+}
 
-.local{
-    box-shadow: 2px 2px 5px #03b32e;
+.local {
+  box-shadow: 2px 2px 5px #03b32e;
   background-color: #1e1e1e;
   width: 50%;
 }
-iframe{
-    height: 400px;
-    width: 100%;
+iframe {
+  height: 400px;
+  width: 100%;
 }

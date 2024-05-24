@@ -1,0 +1,17 @@
+.projetos {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  height: 35rem;
+  text-align: center;
+}
+
+.projeto {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  box-shadow: 2px 2px 5px #03b32e;
+  background-color: #1e1e1e75;
+  margin: 15px;
+  border-radius: 50px;
+}
