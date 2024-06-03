@@ -2,16 +2,28 @@
   display: flex;
   justify-content: center;
   padding: 50px;
-  height: 35rem;
+  height: 40hv;
   text-align: center;
 }
 
 .projeto {
-  display: block;
   padding: 1rem;
   width: 40rem;
   box-shadow: 2px 2px 5px #03b32e;
   background-color: #1e1e1e75;
   margin: 15px;
   border-radius: 50px;
+}
+.href {
+  background-color: #03b32e;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+}
+.href a:hover,
+a:active {
+  background-color: red;
 }

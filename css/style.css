@@ -1,7 +1,10 @@
 @import 'reset.css';
 @import 'estilo.css';
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poetsen+One&display=swap');
-@import 'habilidade.css';
+@import 'navbar.css';
 @import 'projetos.css';
 @import 'fatec.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+

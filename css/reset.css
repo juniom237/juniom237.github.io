@@ -1,43 +1,39 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;  
 }
 
 html,
 body {
+  width: 100vw;
   height: 100vh;
-
-  animation: fundo 60s infinite;
-}
-@keyframes fundo {
-  15% {
-    background: #a46d0b;
-  }
-  30% {
-    background: #8c605d;
-  }
-  45% {
-    background: #35437d;
-  }
-  60% {
-    background: #5f5aeb;
-  }
-  75% {
-    background: #1f8f05;
-  }
-  90% {
-    background: #18a4c6;
-  }
+  background: linear-gradient(#4d4b98,#b340e7);
+  background-attachment: fixed;  
 }
 
-.container {
-  padding: 70px 0;
+.titulo{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  font-size: 5vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  padding: 10px;
 }
 
-p,
-li {
-  color: #444;
-  font-size: 14px;
-}
+
+
+
+

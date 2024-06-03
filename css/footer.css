@@ -1,0 +1,12 @@
+.footer {
+  height: 70px;
+}
+.contato {
+  display: flex;
+  justify-content: center;
+}
+.contato img {
+  height: 70px;
+  border: 50px;
+  margin: 10px;
+}
