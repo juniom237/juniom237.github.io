@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html lang="br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <nav class="navbar">
-        <div class="navbar-brand">
-          <img src="/img/Design sem nome (2).png" alt="logo" />
-          <h3>Engenheiro de Software</h3>
-        </div>
-        <div class="navbar-nav">
-          <ul>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="">Fatec</a></li>
-            <li><a href="">Contatos</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="titulo"><h1>SOBRE</h1></div>
-      <div class="container">
-        <img src="/img/fundo_escrito.png" alt="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img src="/img/logo.png" alt="logo" />
+        <h3>Engenheiro de Software</h3>
       </div>
-      <div class="titulo"><h1>MEUS PROJETOS</h1></div>
+      <div class="navbar-nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#fatec">Fatec</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="sobre">
+      <div class="titulo">
+        <h1>SOBRE</h1>
+      </div>
+      <div class="container">
+        <div class="grid">
+          <div>
+            <img class="foto" src="/img/IMG_0809.JPG" alt="foto">
+          </div>
+          <div class="sobre-min">
+            <h2>Junio de Matos Oliveira</h2>
+            <p>
+              Kanban é uma metodologia ágil que permite fazer o acompanhamento de tarefas e identificar gargalos no
+              fluxo de trabalho. O método kanban pode ser adotado por qualquer tipo de equipe, por ser intuitivo, visual
+              e adaptável a diferentes processos e projetos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projetos">
+      <div class="titulo">
+        <h1>MEUS PROJETOS</h1>
+      </div>
       <div class="projetos">
         <div class="projeto">
           <img src="/img/4380747.jpg" alt="1" width="300" />
@@ -63,7 +81,11 @@
           <a class="href" href="">Ver Mais</a>
         </div>
       </div>
-      <div class="titulo"><h1>FATEC-JAHU</h1></div>
+    </section>
+    <section id="fatec">
+      <div class="titulo">
+        <h1>FATEC-JAHU</h1>
+      </div>
       <div class="fatec">
         <div class="sobre">
           <p>
@@ -84,17 +106,21 @@
         <div class="local">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.038255335341!2d-48.550777990125894!3d-22.314392916881697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7583ac8032c15%3A0xd3db07d9284a5cb2!2sFaculdade%20de%20Tecnologia%20de%20Jahu!5e0!3m2!1spt-BR!2sbr!4v1683854222557!5m2!1spt-BR!2sbr"
-            frameborder="0"
-          ></iframe>
+            frameborder="0"></iframe>
         </div>
       </div>
-    </main>
-    <footer class="footer">
-      <div class="contato">
-        <a href=""><img src="img/github.png" alt="github" /></a>
-        <a href=""><img src="img/linkedin.png" alt="linkedin" /></a>
-        <a href=""><img src="img/instagram.png" alt="facebook" /></a>
-      </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <footer class="footer" id="contatos">
+    <div class="titulo">
+      <h1>Conecte-se comigo</h1>
+    </div>
+    <div class="contato">
+      <a href="https://github.com/juniom237"><img src="img/github.png" alt="github" /></a>
+      <a href="in/juniom237"><img src="img/linkedin.png" alt="linkedin" /></a>
+      <a href=""><img src="img/instagram.png" alt="facebook" /></a>
+    </div>
+  </footer>
+</body>
+
 </html>

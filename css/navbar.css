@@ -21,6 +21,16 @@
   list-style: none;  
 }
 .navbar-nav ul li a{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FFFFA7;
   text-decoration: none;
   margin: 10px;
+  border-bottom: 2px solid transparent;
+  transition: all .3s ease;
+}
+
+.navbar-nav ul li a:hover{
+  border-bottom: 2px solid #FF3DAF;
+  color: #FF3DAF;
 }

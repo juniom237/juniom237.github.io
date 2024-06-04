@@ -23,7 +23,5 @@
   display: inline-block;
   border-radius: 50px;
 }
-.href a:hover,
-a:active {
-  background-color: red;
-}
+
+
