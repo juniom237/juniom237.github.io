@@ -27,6 +27,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
+  margin: 50px;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -45,7 +46,7 @@ h2{
   font-family: "Cedarville Cursive", cursive;
   font-size: 3em;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: hidden;  
 }
 
 

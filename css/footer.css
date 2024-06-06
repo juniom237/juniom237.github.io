@@ -1,4 +1,10 @@
-
+.footer{
+  box-shadow: 2px 2px 5px 5px #03b32e;
+  background-color: #1e1e1e75;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
 .contato {
   display: flex;
   justify-content: center;
