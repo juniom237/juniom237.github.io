@@ -4,23 +4,19 @@ main {
 }
 .container {
   width: 100%;
- height: 100%;
- background-image: url(/img/fundo.png);
+ height: 100%; 
  min-height: 80vh;
- background-size: 100%;
-  
 }
 .grid{
   display: flex;
  justify-content: center;
  align-items: center;
- flex-direction: column;
+ flex-direction: row;
 }
 .foto {
-  padding: 20px;
-  border-radius: 90%;
+  padding: 20px;  
   height: 300px; 
-   
+  margin: 10px;
 }
 .sobre-min{
   width: 40rem;
@@ -40,6 +36,14 @@ main {
   font-style: normal;
   font-size: 3rem;
   text-shadow: 2px 2px 5px red;
+}
+.icone{
+  display: flex;
+  margin-top: 10px;
+}
+.icone img{
+  width: 50px;
+  height: 50px;
 }
 
 

@@ -3,10 +3,10 @@
   background-color: #1e1e1e75;
   border-radius: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .contato {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
