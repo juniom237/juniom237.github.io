@@ -1,21 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 html,
 body {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(#4d4b98,#b340e7);
+  background: linear-gradient(#4d4b98, #b340e7);
   background-attachment: fixed;
   font-family: "Red Hat Display", sans-serif;
-  
-  
+
+
 }
 
-.titulo{
+.titulo {
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -29,26 +29,26 @@ body {
   align-items: center;
   margin: 50px;
 }
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #000;
   padding: 10px;
-  
+
 }
-h2{
+
+h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: rgb(128, 180, 228);
 }
+
 .h1 {
   font-family: "Cedarville Cursive", cursive;
   font-size: 3em;
   white-space: nowrap;
-  overflow: hidden;  
+  overflow: hidden;
 }
-
-
-
